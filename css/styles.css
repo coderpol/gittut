@@ -1,0 +1,56 @@
+/*****************************************************************************************
+****************************** Main CSS File by Palash Bala *******************************
+*****************************************************************************************/
+.scroll_up{
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    display:none;
+    text-indent:-9999px;
+    background: url('../images/to-top.png') no-repeat;
+    z-index:999;
+}
+.scroll-up:hover{opacity:1;}
+
+/*************************
+font: font-style font-variant font-weight font-size/line-height font-family;
+***********************************/
+
+body{
+    font-family: 'OpenSans', Arial, sans-serif;
+    font-size:14px;
+    line-height:1.428571429em;
+    -webkit-font-smoothing:antialiased;
+    position:relative;
+    font-weight:400;
+    color:#333;
+    background:url('../images/bg/concrete-bg.png') repeat;
+}
+/****************** Fonts *****************************/
+.opensans{font-family: 'OpenSans', Arial, sans-serif;}
+.roboto_regular{font-family: 'Roboto-regular', Arial, sans-serif;}
+.roboto_light{font-family: 'Roboto-light', Arial, sans-serif;}
+/****************************************************************
+************************Preset Zone******************************
+******************************************************************/
+.bold, strong{font-weight: 700;}
+.italic, em{font-style: italic;}
+
+.row:before, .row:after { display: table; line-height: 0; margin: 0; padding: 0; content: ""; }
+.row:after { clear: both; }
+/*************** Navigation ********************/
+a#responsive_menu{
+    display:none;
+    background:url("../images/responsive_menu.png") no-repeat top left;
+    width:40px;
+    height:30px;
+    text-indent:9999em;
+    float:right;
+}
+a#responsive_menu.cross{background-position:left bottom}
+/****************************************************************
+********************* Custom css ***************************
+******************************************************************/
